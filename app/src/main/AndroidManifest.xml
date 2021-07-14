@@ -12,8 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TrainingColourMoon"
         android:usesCleartextTraffic="true">
-        <activity android:name=".navFragment.FragmentActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.auth.SignupActivity"></activity>
+        <activity android:name=".navFragment.FragmentActivity" />
+        <activity android:name=".ui.auth.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
